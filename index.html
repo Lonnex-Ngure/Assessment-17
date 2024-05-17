@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="stylesheet" href="my style.css" />
+  </head>
+  <body>
+    <main>
+    <div class="header">
+      <h1>TODO</h1>
+    </div>
+    <div class="items">
+      <label>
+        <span class="checkbox"></span>
+        <input
+          type="text"
+          name="newList"
+          id="newListId"
+          placeholder="Create a new todo..."
+        />
+      </label>
+      </div>
+
+
+    <div class="title">
+      <ul class="all-items">
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" checked="checked" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">Complete online JavaScript course</div>
+          <div class="line"></div>
+        </li>
+
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">Job around the park 3x</div>
+          <div class="cross"></div>
+        </li>
+
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">10 minutes meditation</div>
+          <div class="cross"></div>
+        </li>
+
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">Read for 1 hour</div>
+          <div class="cross"></div>
+        </li>
+
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">Pick up groceries</div>
+          <div class="cross"></div>
+        </li>
+
+        <li class="to-do-item" draggable="true">
+          <input type="checkbox" class="checkbox" />
+          <span class="tick"></span>
+          <div class="listName">Complete Todo App on Frontend Mentor</div>
+          <div class="cross"></div>
+        </li>
+      </ul>
+
+      <div class="bottom">
+        <div class="itemsLeft">5 items left</div>
+        <div class="between">
+          <a class="All">All</a>
+          <a class="Active">Active</a>
+          <a class="Completed">Completed</a>
+        </div>
+        <div class="clearCompleted">Clear Completed</div>
+      </div>
+    </div>  
+
+      <div class="footer">
+        <p>Drag and drop to reorder list</p>
+      </div>
+    </body>
+  </main>
+  </body>
+</html>
